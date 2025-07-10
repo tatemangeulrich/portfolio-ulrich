@@ -1,0 +1,42 @@
+
+
+:root {
+    --first-color: orange;
+    --background: black;
+    --font-size: 14px;
+    --label: white;
+    --background-light: rgba(255, 255, 255, .01);
+    --border: 1px solid rgba(255, 255, 255, .1); 
+    --background-nav: rgba(0, 0, 0, .5);
+    --background-r: rgba(255, 255, 255, .1);
+    --height-nav: 60px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google sans", system-ui, sans-serif;
+    color: currentColor;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--label);
+    font-size: var(--font-size);
+    padding-top: calc(var(--height-nav) + 1rem);
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+footer {
+    background-color: var(--background-r);
+    color: var(--label);
+    border-top: var(--border);
+    padding: 2rem 0;
+    text-align: center;
+}
