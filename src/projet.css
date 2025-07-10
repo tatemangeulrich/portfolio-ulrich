@@ -1,0 +1,40 @@
+/* Container général */
+.card {
+  padding: 20px 0;
+  border-radius: 15px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Titre principal */
+
+/* Chaque projet */
+.projet {
+    border: 1px solid var(--first-color);
+  border-radius: 10px;
+  font-size: 90%;
+  padding: 10px;
+    width: 200px;
+  transition: transform 0.2s ease;
+}
+
+/* Effet hover */
+.projet:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Titre du projet */
+.projet h3 {
+  margin: 0;
+  color: var(--first-color);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Description du projet */
+.projet p {
+  margin: 8px 0 0;
+}
+
