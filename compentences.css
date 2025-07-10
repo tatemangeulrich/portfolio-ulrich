@@ -21,7 +21,7 @@ padding: 20px;
     border-radius: 5px;
 }
 .niveau{
-    background-color: #4caf50;
+    background: color #4caf50; 
     height: 10px;
     border-radius: 5px;
 }
